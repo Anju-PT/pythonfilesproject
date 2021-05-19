@@ -1,0 +1,14 @@
+st1={1,2,3,4,5,6,7,8,9,10}
+st2={5,6,7,8,9,10,11,12,13,14,15}
+#union
+#combine 2 sets and remove duplicates
+# st3=st1.union(st2)
+# print(st3)
+
+#intersection: return common elemnts in 2 sets
+st4=st1.intersection(st2)
+print(st4)
+
+#difference:in set 1 and not in set2
+st5=st1.difference(st2)
+print(st5)
